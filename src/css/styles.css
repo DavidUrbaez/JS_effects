@@ -1,5 +1,5 @@
 .apoyo {
-    background-color: green;
+    background-color: rgb(83, 83, 83);
     height: 600px;
     display: flex;
     justify-content: center;
@@ -8,11 +8,48 @@
     color: #fff;
 }
 
-#teAyudamos {
+#presentation {
     padding: 7rem 0;
-    background-image: url("../img/img3.jpg");
+    text-align: center;
+}
+
+#presentation h2 {
+    color: rgb(21, 111, 196);
+}
+
+#presentation p {
+    color: white;
+    text-align: justify;
+    padding: 30px;
+}
+
+.parallax__container {
+    clip: rect(0, auto, auto, 0);
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -100;
+}
+
+.parallax {
+    position: fixed;
+    top: 0;
+    transform: translate3d(0, 0, 0);
+    transform-style: preserve-3d;
+    width: 100%;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-    transform: scale(1.2);
+}
+
+@media screen and (max-width: 600px) {
+    #presentation h2 {
+        font-size: 30px;
+    }
+    #presentation p {
+        font-size: 16px;
+    }
 }
