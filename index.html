@@ -12,10 +12,13 @@
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <!-- parallax -->
-    <script src="src/js/universal-parallax.js">
-        new universalParallax().init();
-    </script>
+    <!-- parallax 
+    https://github.com/marrio-h/universal-parallax
+    -->
+
+
+
+    <script src="src/js/universal-parallax.js"></script>
 
 </head>
 
@@ -24,29 +27,36 @@
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. At nam nihil ratione, fuga error quos cum! Possimus cupiditate velit atque numquam sint quibusdam corporis cumque eligendi mollitia tenetur, recusandae dolores?
     </section>
 
-    <section>
-        <div class="parallax" data-parallax-image="src/img/img1.jpg">
-            This is a test
-        </div>
-    </section>
 
-    <!-- <section id="teAyudamos" class="text-center text-white">
+
+    <section id="presentation">
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <h2 class="display-4 font-weight-bold">How can i help?</h2>
-                    <p>
-                        this is a test 222
-                    </p>
-                    <a href="" class="btn btn-primary"> Help</a>
+                    <h2 class="display-4 font-weight-bold">David Urbaez León</h2>
+                    <p>I am an Electrical Engineer student, and on this webpage, you can find all the projects I've been working on.</p>
+
                 </div>
             </div>
         </div>
+        <div class="parallax" data-parallax-image="src/img/img4.jpg"></div>
 
-    </section> -->
+    </section>
+
+
+
+
+
     <section class="apoyo">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. At nam nihil ratione, fuga error quos cum! Possimus cupiditate velit atque numquam sint quibusdam corporis cumque eligendi mollitia tenetur, recusandae dolores?
     </section>
+
+    <!-- Run Parallax Plug-ing -->
+    <script>
+        new universalParallax().init({
+            speed: 4
+        });
+    </script>
 </body>
 
 </html>
