@@ -19,6 +19,8 @@
 
 #presentation p {
     color: white;
+    text-align: justify;
+    padding: 30px;
 }
 
 .parallax__container {
@@ -41,4 +43,13 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+@media screen and (max-width: 600px) {
+    #presentation h2 {
+        font-size: 30px;
+    }
+    #presentation p {
+        font-size: 16px;
+    }
 }
