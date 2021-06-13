@@ -1,0 +1,18 @@
+.apoyo {
+    background-color: green;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+#teAyudamos {
+    padding: 7rem 0;
+    background-image: url("../img/img3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    transform: scale(1.2);
+}
